@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    /* background-color: black; */
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.top-menu a{
+    display: block;
+    padding: 15px;
+}
+a:link{
+    text-decoration: none;
+}
+.top-bar{
+    background-color: black;
+}
+.top img{
+    width: 40px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-item{
+    display: flex;
+}
+.banner-item h4{
+    font-size: 45px;
+}
+.banner{
+    background: linear-gradient(rgba(26, 26, 26, 0.786), rgba(26, 26, 26, 0.786)), url(../IMAGE/mauntain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.discription{
+        padding-top: 40px;
+}
+.banner-img img{
+    width: 400px;
+}
+.button_first{
+    padding: 12px;
+    font-size: 15px;
+    background-color: aqua;
+}
+.about{
+    background-color: rgb(0, 0, 0);
+}
+.drone_items{
+    display: flex;
+    justify-content: space-between;
+}
+.drone_img img{
+    margin-top: 24px;
+    width: 440px;
+}
+.about_drone{
+    padding: 50px;
+    align-items: center;
+}
+.about_drone h4,  .about_drone p{
+    padding: 10px;
+}
+.about_drone h4{
+    font-size: 25px;
+}
+span{
+    color: aqua;
+}
+.banner_info{
+    display: flex;
+}
+.main{
+    width: 25%;
+}
+.main span{
+    font-size: 15px;
+}
+.main h5{
+    font-size: 30px;
+}
+.sale{
+    padding: 20px;
+    background: linear-gradient(rgba(26, 26, 26, 0.786), rgba(26, 26, 26, 0.786)), url(../IMAGE/mauntain.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description h5, .description p{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.description h5{
+    font-size: 30px;
+}
+.sale_description{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.detail{
+    width: 50%;
+}
+.detail h5{
+    font-size: 20px;
+}
+.icons{
+    text-align: center;
+}
+.drone_case{
+    background-color: black;
+}
+.fly_items{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.dj_i_description h5{
+    font-size: 25px;
+}
+.dj_i_description b{
+    margin-top: 10px;
+}
+.dj_i_description a{
+    margin-top: 30px;
+}
+.dj_i_description a:link, .dj_i_description a:visited, .second_link{
+    border: 2px solid rgb(252, 255, 252);
+    padding: 10px 20px;
+    display: inline-block;
+}
+.about_drones{
+    padding: 40px;
+    background-color: rgb(0 0 0 / 89%);
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+.forms, .maps{
+    width: 49%;
+}
+.about_drones h6{
+    font-size: 39px;
+}
+.forms{
+    padding: 30px;
+    background-color: black;
+    display: grid;
+}
+.forms input, textarea{
+    background-color:  rgba(39, 39, 39, 0.438);
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    background-color: aqua;
+}
